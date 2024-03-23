@@ -20,4 +20,16 @@ public class Calculadora {
         return numA / numB;
     }
 
+    boolean verificarNumPrimo(int n){
+
+        if(n <= 1){
+            return false;
+        }
+        if((n != 2) && (n % 2 == 0)){
+            return false;
+        }
+
+        return true;
+
+    }
 }
