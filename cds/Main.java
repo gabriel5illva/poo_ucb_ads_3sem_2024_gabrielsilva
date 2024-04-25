@@ -8,17 +8,17 @@ public class Main {
         artista.setGeneroMusical("Rock Alternativo");
 
         Faixa faixa1 = new Faixa();
-        faixa1.setTitulo("Odio");
+        faixa1.setTitulo("Ódio");
         faixa1.setDuracao("4:09");
         faixa1.setNumeroFaixa(1);
 
         Faixa faixa2 = new Faixa();
-        faixa2.setTitulo("Imperecivel");
+        faixa2.setTitulo("Imperecível");
         faixa2.setDuracao("3:26");
         faixa2.setNumeroFaixa(2);
 
         Faixa faixa3 = new Faixa();
-        faixa3.setTitulo("Frankenstein do Suburbio");
+        faixa3.setTitulo("Frankenstein do Subúrbio");
         faixa3.setDuracao("3:39");
         faixa3.setNumeroFaixa(3);
 
@@ -28,12 +28,12 @@ public class Main {
         faixa4.setNumeroFaixa(4);
 
         Faixa faixa5 = new Faixa();
-        faixa5.setTitulo("Pes no Chao");
+        faixa5.setTitulo("Pés no Chão");
         faixa5.setDuracao("3:24");
         faixa5.setNumeroFaixa(5);
 
         Faixa faixa6 = new Faixa();
-        faixa6.setTitulo("Suja e So");
+        faixa6.setTitulo("Suja e Só");
         faixa6.setDuracao("4:59");
         faixa6.setNumeroFaixa(6);
 
@@ -43,7 +43,7 @@ public class Main {
         faixa7.setNumeroFaixa(7);
 
         Faixa faixa8 = new Faixa();
-        faixa8.setTitulo("Dura Feito Aco");
+        faixa8.setTitulo("Dura Feito Aço");
         faixa8.setDuracao("3:36");
         faixa8.setNumeroFaixa(8);
 
@@ -58,12 +58,12 @@ public class Main {
         faixa10.setNumeroFaixa(10);
 
         Faixa faixa11 = new Faixa();
-        faixa11.setTitulo("Artificio Magico");
+        faixa11.setTitulo("Artifício Mágico");
         faixa11.setDuracao("3:10");
         faixa11.setNumeroFaixa(11);
 
         CD cd = new CD();
-        cd.setTitulo("Luxuria");
+        cd.setTitulo("Luxúria");
         cd.setArtista(artista);
         cd.setGenero("Rock Alternativo");
         cd.setAnoLancamento("2006");
