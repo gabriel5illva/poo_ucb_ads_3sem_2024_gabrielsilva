@@ -7,6 +7,15 @@ public class Main {
         artista.setAnoEstreia("2006");
         artista.setGeneroMusical("Rock Alternativo");
 
+        Banda banda = new Banda();
+        banda.setNome("Luxúria");
+        banda.setAnoEstreia("2006");
+        banda.setGeneroMusical("Rock");
+        banda.adicionarMembro("Guilherme");
+        banda.adicionarMembro("Dragão");
+        banda.adicionarMembro("Beto");
+        banda.adicionarMembro("Meg");
+
         Faixa faixa1 = new Faixa();
         faixa1.setTitulo("Ódio");
         faixa1.setDuracao("4:09");
