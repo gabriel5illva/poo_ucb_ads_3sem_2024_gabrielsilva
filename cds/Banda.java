@@ -19,4 +19,6 @@ public class Banda extends Artista {
     public void removerMembro(String membro) {
         membros.remove(membro);
     }
+
+    
 }
